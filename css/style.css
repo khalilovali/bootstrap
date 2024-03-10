@@ -1,0 +1,53 @@
+div {
+  background-image: url(/assets/main1.jpg);
+  height: 100vh;
+}
+nav {
+  display: flex;
+  align-content: space-between;
+}
+h1 {
+  position: relative;
+  top: 30%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-size: 5rem;
+  color: #bebebe;
+}
+.box-1 {
+  position: relative;
+  text-align: center;
+  font-size: 3rem;
+  p {
+    color: #bebebe;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+  }
+  button {
+    position: relative;
+    top: 60%;
+    background-color: #64a19d;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 1.5rem 2rem;
+    font-size: 50%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+    border-radius: 15px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #558985;
+  }
+}
+.box-2 {
+  position: relative;
+  left: 350px;
+  background-image: url(/assets/bg-masthead.jpg);
+  top: 350px;
+  width: 50%;
+  height: 600px;
+}
